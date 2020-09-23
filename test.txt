@@ -1,1 +1,0 @@
-This is a text linkin github account with cygwin's git.
