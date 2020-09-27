@@ -19,6 +19,7 @@ const timer = new Timer(durationInput, startButton, pauseButton, {
     );
   },
   onComplete() {
-    console.log('Timer is completed.');
+    circle.setAttribute('stroke-dashoffset', 0);
+    durationInput.value = duration;
   },
 });
